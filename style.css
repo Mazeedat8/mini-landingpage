@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Segoe UI',  sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 1.2), rgba(0, 0, 0, 0.9)), url('/Images/Tree.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+}
+.container {
+    padding :20px
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.logo {
+    display: flex;
+    align-items: center;
+}  
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.logo h1 {
+    color: orangered;
+}
+img {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 1px;
+    font-size: 14px;
+} 
+.search-box input {
+    padding: 5px;
+    border: 1px solid orangered;
+    background: none;
+    color: white;
+}
+.search-box button {
+    background: orangered;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.text-box {
+    width: 50%;
+}
+.text-box h2 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-left: 40px;
+    margin-top: 0;
+}
+.text-box span{
+    color: orangered;
+}
+.text-box p { 
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 12px;
+}
+.buttons{
+    padding-left: 40px;
+}
+.join-btn {
+    background: orangered;
+    color: white;
+    padding: 2px 12px;
+    text-decoration: none;
+    box-decoration-break: round;
+}
+a .join-btn:hover {
+    background: white;
+    color: orangered;
+}
+a {
+    padding-left: 40px;
+}
+.login-box {
+    background: black;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+}   
+.login-box h2 {
+    background: white;
+    color: orangered;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.login-box input {
+    width: 100%;
+    margin-bottom: 15px;
+    background: none;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid orangered;
+}
+.login-box button {
+    width: 100%;
+    background: orangered;
+    color: rgba(13, 13, 13);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.signup-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.signup-text a {
+    color: orangered;
+    text-decoration: none;
+}
+.signup-text a span {
+    color: white;
+}
+.social {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-icons {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
