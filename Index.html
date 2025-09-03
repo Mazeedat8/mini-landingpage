@@ -12,19 +12,40 @@
         <div class="logo">
      <h1>PraRoz</h1>
         </div>
-        <nav>
+        <nav class="navbar">
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Services</a>
                 <a href="#">design</a>
                 <a href="#">contact</a>
         </nav>
-        <div class="search-box">
+        <div class="search-box desktop-search">
             <input type="text" placeholder="Type to search">
             <button>Search</button>
         </div>
+        <!--Mobile Menu Button-->
+       <div class="mobile-menu-btn" onclick="toggleMobileMenu()">
+           <span class="hamburger"></span>
+           <span class="hamburger"></span>
+           <span class="hamburger"></span>
+       </div>
         </header>
-      
+
+        <!--Mobile Menu-->
+        <div class="mobile-menu" id="mobileMenu">
+            <nav class="mobile-nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Design</a>
+                <a href="#">Contact</a>
+            </nav>
+            </div>
+           <div class="search-box mobile-search">
+            <input type="text" placeholder="Type to search">
+            <button>Search</button>
+        </div>
+
         <main>
             <section class="text-box">
                 <h2>Web Design & <span>Development</span><br> Course</h2>
@@ -49,7 +70,7 @@
                     <img src="/Images/twittericon.webp" alt="Twitter">
                     <img src="FacebookIcon.png" alt="Facebook"> 
                     <img src="/Images/twittericon.webp" alt="Twitter">
-                </div>
+            </div>
             </section>
             </main>
             </body>
